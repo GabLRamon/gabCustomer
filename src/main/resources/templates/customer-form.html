@@ -47,7 +47,7 @@
 
     <br><br>
 
-    Course Code: <input type="text" th:field="*{courseCode}">
+    Course Code (*): <input type="text" th:field="*{courseCode}">
 
     <span th:if="${#fields.hasErrors('courseCode')}"
           th:errors="*{courseCode}"
